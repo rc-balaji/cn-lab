@@ -34,6 +34,7 @@ public class Server {
         os.flush();
         socket.close();
         ssock.close();
+        bis.close();
         System.out.println("File sent successfully!");
     }
 }

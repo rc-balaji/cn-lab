@@ -18,6 +18,7 @@ public class Client {
 
         bos.flush();
         socket.close();
+        bos.close();
         System.out.println("File saved successfully!");
     }
 }
